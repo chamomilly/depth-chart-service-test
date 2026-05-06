@@ -4,7 +4,11 @@
   "description": "NFL-style depth chart management API",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
   },
   "dependencies": {
     "express": "4.18.2"
