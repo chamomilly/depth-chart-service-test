@@ -1,24 +1,16 @@
 {
-  "name": "depth-chart-service-test",
+  "name": "depth-chart",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "NFL-style depth chart management API",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chamomilly/depth-chart-service-test.git"
+  "devDependencies": {
+    "jest": "29.7.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/chamomilly/depth-chart-service-test/issues"
-  },
-  "homepage": "https://github.com/chamomilly/depth-chart-service-test#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "4.18.2"
   }
 }

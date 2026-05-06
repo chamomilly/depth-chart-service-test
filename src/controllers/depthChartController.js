@@ -3,6 +3,10 @@
  *
  * Handles HTTP request/response concerns and delegates
  * all business logic to DepthChartService.
+ * 
+ * NOTE: Kiro helped me setup this file and write the addPlayer function as I have limited backend experience
+ * I wrote the rest of the functions leveraging what Kiro wrote
+ * 
  */
 
 const service = require('../services/depthChartService');
